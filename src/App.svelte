@@ -1,11 +1,12 @@
 <script lang="ts">
   import TheHeader from "./lib/TheHeader.svelte";
+  import GithubContributionCalendar from "./lib/GithubContributionCalendar.svelte";
   import TheFooter from "./lib/TheFooter.svelte";
 </script>
 
 <TheHeader />
 <main>
-  TODO
+  <GithubContributionCalendar />
 </main>
 <TheFooter />
 
